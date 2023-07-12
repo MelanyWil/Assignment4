@@ -1,1 +1,27 @@
-/* Write your CSS here! */
+
+header {
+    background-color: #f7e872;
+    height: 200px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+   display: flex; 
+   justify-content: center;
+}
+
+
+.logo {
+    height: 150px;
+    margin-top: 20px;
+}
+
+.page-title {
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    margin-left: 0;
+    margin-top: 50px;
+}
