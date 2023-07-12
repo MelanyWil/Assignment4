@@ -1,10 +1,53 @@
 
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
     background-color: #f7e872;
-    height: 200px;
+    height: 200v;
     width: 100vw;
-    margin: 0px;
     padding: 0px;
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: baskerville, serif;
+    font-style: italic;
+    font-size: 30px;
+    padding: 0.625em;
+    padding-left: 0;
+}
+
+#list {
+    padding-bottom: 0;
+}
+
+h3 {
+    padding: 20px;
+}
+
+hr {
+    height: .7rem;
+    background-color: #f7e872;
+    border: none;
+    margin: 0;
+}
+
+p {
+    padding-bottom: 2em;
+    padding-left: 0;
+}
+img {
+    width: 100%;
+}
+.vertical {
+    width: 50%;
 }
 
 .container {
@@ -14,14 +57,19 @@ header {
 
 
 .logo {
-    height: 150px;
+    height: 170px;
     margin-top: 20px;
 }
 
 .page-title {
     color: white;
-    font-family: cursive;
-    font-size: 50px;
+    font-family: baskerville, serif;
+    font-style: italic;
+    font-size: 70px;
     margin-left: 0;
     margin-top: 50px;
+}
+
+.intro {
+    text-align: center;
 }
